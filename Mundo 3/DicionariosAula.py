@@ -52,5 +52,5 @@ for i,valor in enumerate(brasil):
 #organizando dicionário 
 from operator import itemgetter
 notas={'calculo':8.5, 'probabilidade':9.9,'Programação':10}
-notas=sorted(notas.items(),key=itemgetter(1))
+notas=sorted(notas.items(),key=itemgetter(1),reverse=True)
 print(notas)

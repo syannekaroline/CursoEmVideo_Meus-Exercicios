@@ -22,7 +22,7 @@ def menu(list):
     op=leiaInt("Digite a opção desejada: ")
     return op
 
-def Intercafe(cabecalhoMsg,MenuList):
+def Interface(cabecalhoMsg,MenuList):
 
     cabecalho(cabecalhoMsg,33)
     op=menu(MenuList)

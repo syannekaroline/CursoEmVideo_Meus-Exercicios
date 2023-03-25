@@ -1,4 +1,4 @@
-from random import choice,shuffle
+from random import choice,shuffle, random
 alunos=list(input("Insira o nome dos 4 alunos separados po um espaço: ").split( ))
 ordem={"Primeiro","Segundo","Terceiro","Quarto"}
 print("O aluno sorteado foi : {}".format(choice(alunos)))
